@@ -24,5 +24,12 @@ class Camry extends Car {
 		System.out.println(" Carmry Run's ... !");
 		
 	}
+
+	
+	public static void main(String[] args) {
+		//Car c =  new Car();
+		
+	}
 	
 }
+

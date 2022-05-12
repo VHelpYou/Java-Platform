@@ -1,10 +1,16 @@
 package ss.training.java.oops.math;
 
-public class LargestOfThree {
+public class LargestOfThree /* extends java.lang.Object*/{
 	
 	private int a;
 	private int b;
 	private int c;
+	
+	public LargestOfThree() {
+		this.a = 100;
+		this.b = 200;
+		this.c = 300;
+	}
 	/**
 	 * 
 	 * @param a

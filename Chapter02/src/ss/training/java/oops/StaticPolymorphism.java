@@ -11,6 +11,19 @@ public class StaticPolymorphism {
 	       obj.disp('a');
 	       obj.disp('a',10);
 	   }
+	
+	class Calc {
+		
+		int add(int a, int b) {
+			return a + b;
+		}
+		
+		double add(double d1, double d2) {
+			return d1 + d2;
+		}
+		
+		
+	}
 }
 
 

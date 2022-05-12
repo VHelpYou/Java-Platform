@@ -8,7 +8,17 @@ public class DynamicPolymorphism {
 	
 	public static void main(String args[]){
 		Animal obj = new Dog();
+		Animal objectDyn = new Cat();
 		obj.animalSound();
+		objectDyn.animalSound();
+		
 	   }
 	
+	
+	
+	
+	
+	
 }
+
+
