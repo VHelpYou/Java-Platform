@@ -1,0 +1,40 @@
+/* Sql Script you have to perfomr in order to run the program */
+CREATE TABLE Person
+(
+    ID INT NOT NULL AUTO_INCREMENT,
+    FirstName VARCHAR(100) NOT NULL,
+    LastName VARCHAR(100) NOT NULL,
+    Email VARCHAR(100) NOT NULL,
+    JoinedDate DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (ID)
+);
+
+GRANT SELECT,INSERT,DELETE ON `ss-training`.Person TO 'ss-app-user'@'localhost';
+
+commit;
+Assignment I
+/**
+# 1. Setup Database Mysql install Mysql database and Workbench
+  2. Create a Table Authentication ( Logid and Password - Name Email )
+  3. Main Client Scanner reading data from Keyboard - Read the login and password.
+  4. Login Successful
+  5.
+
+J2EE
+ 1 Servelet
+ DO get
+ 2 JSP
+ 3, <Form>
+ 4. Reesponse.Disp
+  Create A Project
+  Html Page with UserName and Password as input text filed
+  Login successful Page
+  Log inFaliure page
+
+
+
+
+  Enhance this Project
+*/
+
+
